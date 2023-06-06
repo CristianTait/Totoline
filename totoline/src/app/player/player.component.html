@@ -1,0 +1,4 @@
+<div class="player">
+    <img *ngIf="playerVisible" id="player-image" [src]="'../../assets/sprites/hero_' + spriteIndex + '.png'" alt="Player" [style.top.px]="posY" [style.left.px]="posX" [style.zIndex]="1">
+    <img *ngIf="projectileVisible" [src]="ballImage" alt="Ball" [style.top.px]="projectileY" [style.left.px]="ballX" [style.zIndex]="2" [style.position]="'absolute'">
+  </div>

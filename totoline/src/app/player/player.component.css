@@ -1,0 +1,13 @@
+.player {
+    position: relative;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  .player img {
+    max-width: 50px;
+    max-height: 50px;
+    position: absolute;
+    top: 0;
+    transition: left 0.9s cubic-bezier(0.1, 0.7, 0.1, 1.0), top 0.9s cubic-bezier(0.1, 0.7, 0.1, 1.0);
+  }
